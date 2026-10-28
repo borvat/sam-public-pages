@@ -1,0 +1,54 @@
+{
+  "observed_at": "2026-10-28",
+  "repository": "borvat/sam-public-pages",
+  "base_branch": "main",
+  "base_head": "f9636bc790fedebcfafd755cb571d56f20f695d7",
+  "base_tree": "67e2eff197002fe53aecc51e7486d2fd31767bb8",
+  "type": "static public content",
+  "adaptation": "minimal-reference",
+  "context": {
+    "purpose": "Static public pages and legal/artifact content for SAM.",
+    "architecture": [
+      "Static HTML/CSS plus redirect configuration under public/; no application server, model or database is present in the inspected source."
+    ],
+    "modules": [
+      "public/index.html",
+      "public/privacy.html",
+      "public/privacy/index.html",
+      "public/terms.html",
+      "public/terms/index.html",
+      "public/style.css",
+      "public/_redirects"
+    ],
+    "current_state": "Default main inspected atf9636bc790fedebcfafd755cb571d56f20f695d7 (tree67e2eff197002fe53aecc51e7486d2fd31767bb8),11 entries. No deployment or current rendered acceptance was checked.",
+    "verified_features": [
+      "Pinned Git tree confirms static page/assets scope; content behavior and publishing are not independently tested here."
+    ],
+    "blockers": [
+      "No existing test harness or project archive; full dynamic-app memory acceptance is not appropriate to this static scope."
+    ],
+    "decisions": [
+      "Use minimal state/history and ordinary entry guidance; do not add paid services, models or an app runtime."
+    ],
+    "unfinished": [
+      "Any later static content edit needs scoped syntax/link/render checks and separate publishing authority."
+    ],
+    "next_step": "Record static role/source pin and provide minimal source-aware resume; leave public assets unchanged during memory integration.",
+    "evidence_paths": [
+      "README.md",
+      "public/index.html",
+      "public/_redirects"
+    ],
+    "state_path": "docs/engineering-memory/PROJECT_STATE.md",
+    "history_path": "docs/engineering-memory/HISTORY.md"
+  },
+  "inspected_sources": [
+    {
+      "path": "README.md",
+      "blob_sha": "e5a9c30206f75169c32bc9dd2c408fdb85a2d464",
+      "error": false,
+      "url": "https://github.com/borvat/sam-public-pages/blob/f9636bc790fedebcfafd755cb571d56f20f695d7/README.md"
+    }
+  ],
+  "limits": "Source inspection and historical reports only; no new native tests or deployment observed."
+}

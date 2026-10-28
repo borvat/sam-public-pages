@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "repository": "borvat/sam-public-pages",
+  "pr": 1,
+  "decision": "READY FOR OWNER APPROVAL",
+  "meaning": "Technical recommendation only; no owner authorization, formal GitHub approval, main/master merge or operational delivery.",
+  "reviewed_parent_head": "d280b3dcbe0d49a5b04ed5f3ce1818b74256a173",
+  "current_base_branch": "main",
+  "current_base_head": "f9636bc790fedebcfafd755cb571d56f20f695d7",
+  "head_and_base_unchanged_since_prior_final_readback": true,
+  "initial_full_pr_changed_files": [
+    {
+      "path": "AGENTS.md",
+      "status": "added",
+      "git_blob": "4dc4c68478b3293798498bfa9cabc72b093c77c5",
+      "sha256": "cf4ab188710040011a29878db1da97af8578349cbf7047a9689318bd01aebfe0"
+    },
+    {
+      "path": "_bmad/.gitignore",
+      "status": "added",
+      "git_blob": "35d296823d4384f7725d113b5fe95b2009551f43",
+      "sha256": "64f581717b03197c835ab4edf1d3b582946a26dc84c6067a2e8d67b825eaaef8"
+    },
+    {
+      "path": "_bmad/config.toml",
+      "status": "added",
+      "git_blob": "36237306186cea34040b6cbbc0b0d7bcfeeb9b26",
+      "sha256": "8f7986b4cd881bccef890d99e61a90fc0ce7bd10b4969ab582f6702a5d597dcb"
+    },
+    {
+      "path": "_bmad/custom/.gitignore",
+      "status": "added",
+      "git_blob": "42d7bc633210ae45f75aa6ed63e2cb7d6dc016ee",
+      "sha256": "973b03a33f142c22cf9b65be285bebadd85790b6b55be04637d2f8c716f58fab"
+    },
+    {
+      "path": "_bmad/custom/bmad-build.toml",
+      "status": "added",
+      "git_blob": "ffb9bfed4b6576b97bcb25f49f19b50d62c61216",
+      "sha256": "e7675fdcaace8d2132d956ce5bc0485722335dbefbde1b9258636674a4da5982"
+    },
+    {
+      "path": "docs/engineering-memory/ADOPTION-20261028.md",
+      "status": "added",
+      "git_blob": "db3b6051f5beecfeb90a8692f981022ce5cb0da9",
+      "sha256": "f3de3f56db238042c3b3332f50bfe319d3a00d269f35ba143d3d85ac65c37c55"
+    },
+    {
+      "path": "docs/engineering-memory/BASELINE.json",
+      "status": "added",
+      "git_blob": "720dfc774e28c4770155de92ca8e324fd7e502aa",
+      "sha256": "07b1e648b144d024c85457fce7c85512b5bec5989e91e9f3541eb17b0ea3544c"
+    },
+    {
+      "path": "docs/engineering-memory/HISTORY.md",
+      "status": "added",
+      "git_blob": "5e395ae05b8d492114578036c33a52a4438dc108",
+      "sha256": "db7ac36cc99fc55b6546e9d48aeddaff25d80fcfb701d57da02da0363e176283"
+    },
+    {
+      "path": "docs/engineering-memory/POLICY.md",
+      "status": "added",
+      "git_blob": "6e351a853ce0013b2224200105380adf2b2e0475",
+      "sha256": "8de1296d9a464067e38fb1d93e23690cf6bcf41e60c96ae61919b35de3320915"
+    },
+    {
+      "path": "docs/engineering-memory/PROJECT_STATE.md",
+      "status": "added",
+      "git_blob": "93f251b5f864608183041e32ca49f340ffb7179e",
+      "sha256": "49ac827c7daa2ad505cc10d068a46d3b2057e43825fafe16fec243dabecd43a0"
+    },
+    {
+      "path": "docs/engineering-memory/evidence/adoption-review-20261028.json",
+      "status": "added",
+      "git_blob": "f768ae0c1dd9093573c0b427f12dae8c035f8779",
+      "sha256": "131e482888079d98ff8d98a989e85169e39d0d885483eb82436f7b6bc9c2b951"
+    }
+  ],
+  "initial_changed_file_count": 11,
+  "scope": "Lightweight reference/static documentation only; no executable memory system",
+  "base_ancestor_and_clean_github_mergeability": true,
+  "independent_review": {
+    "reviewer": "four_final_review",
+    "changed_blobs_independently_authenticated": 11,
+    "result": "No blocking runtime or security findings",
+    "historical_receipts": "Prior evidence retains original source identities; it is not a new application/runtime PASS."
+  },
+  "security": {
+    "credentials_or_personal_records_observed": false,
+    "fixture_email_matches": "None",
+    "other_pattern_triage": "Local task paths and policy terminology are not credential literals; no values or raw traces copied into this report.",
+    "application_dependency_workflow_permission_files_changed": false,
+    "unnecessary_service_or_cost_added": false,
+    "candidate_auto_activation_or_promotion": false,
+    "operational_sam_memory_or_goal_state_changed": false
+  },
+  "github_controls": {
+    "checks": 0,
+    "statuses": 0,
+    "formal_reviews": 0,
+    "ci_pass_claim": false,
+    "target_protected": false,
+    "listed_required_status_contexts": [],
+    "detailed_protection_read": "Branch metadata unprotected; owner still explicitly excludes main/master merges"
+  },
+  "rollback": {
+    "recommended_merge_strategy": "Standard merge commit; repository permits it. No merge performed.",
+    "action_after_separately_authorized_merge": "Create a reviewed development-branch revert of the actual merge commit using parent1; preserve earlier application work and evidence. No force/reset.",
+    "known_premerge_base": "f9636bc790fedebcfafd755cb571d56f20f695d7"
+  },
+  "order": "No cross-repository merge dependency. Owner may follow requested priority SAM, Brain, My Agent, Smart, Public Pages.",
+  "archive_boundary": "Neither raw nor redacted ZIP uploaded or reopened. Existing non-sensitive summaries and reference hash suffice.",
+  "reference_redacted_sha256": "fa9152342893bf3dab36a52d2763e4c79ff4c4831ba6966a387dfd7a208aceb8",
+  "reference_redaction_commit": "15c00fa8cec23133928fa422b0a9460fea908f7e",
+  "tests": {
+    "documentation_toml_and_single_managed_context": "PASS",
+    "static_assets_and_publishing_workflow_unchanged": true,
+    "full_learning_archive_resume": "NOT APPLICABLE"
+  },
+  "documentation_fix": {
+    "finding": "Prior ADOPTION sentence could confuse correction scope with aggregate PR scope",
+    "severity": "low",
+    "fix": "Append original-head-specific scope clarification, preserving prior text",
+    "independent_recheck": "four_final_review: No findings after clarification"
+  }
+}
